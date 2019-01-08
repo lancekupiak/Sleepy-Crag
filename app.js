@@ -10,6 +10,6 @@ app.post('/', (req,res) => {
 });
 
 
-app.listen(process.env.PORT || 4000, ()=> {
+app.listen(process.env.PORT || 80, ()=> {
     console.log('Server running...');
 });
