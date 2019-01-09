@@ -4,7 +4,7 @@ const path = require('path');
 
 app.use(express.json());
 
-app.get('/', (req,res) => {
+app.post('/', (req,res) => {
     res.send('Hello there!');
     res.end;
 });
